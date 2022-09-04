@@ -5,7 +5,3 @@ urlpatterns = [
     path('<int:id>', views.detail, name="detail"),
     path('rooms', views.rooms, name="rooms")
 ]
-
-#lets test a new commit
-
-#push new changes into develop
