@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rooms</title>
+</head>
+<body>
+
+<p>
+    this is the page for rooms
+</p>
+
+<h2>Rooms</h2>
+<ul>
+    {% for room in rooms %}
+        <li>
+                 <a>{{room}}</a>
+        </li>
+    {% endfor%}
+</ul>
+
+<p>
+    <a href="/">Home</a>
+</p>
+
+</body>
+</html>
